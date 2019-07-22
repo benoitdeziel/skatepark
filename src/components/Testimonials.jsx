@@ -9,11 +9,7 @@ const Testimonials = ({ testimonials }) => (
         <div className="message-body">
           {testimonial.quote}
           <br />
-          <cite>
-            {' '}
-–
-            {testimonial.author}
-          </cite>
+          <cite> –{testimonial.author}</cite>
         </div>
       </article>
     ))}
@@ -25,7 +21,7 @@ Testimonials.propTypes = {
     PropTypes.shape({
       quote: PropTypes.string,
       author: PropTypes.string,
-    }),
+    })
   ),
 };
 

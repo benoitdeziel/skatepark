@@ -1,4 +1,5 @@
-var proxy = require('http-proxy-middleware')
+/* eslint-disable no-undef */
+var proxy = require('http-proxy-middleware');
 
 module.exports = {
   siteMetadata: {
@@ -8,6 +9,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
@@ -87,6 +89,6 @@ module.exports = {
           '/.netlify/functions/': '',
         },
       })
-    )
+    );
   },
-}
+};

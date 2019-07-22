@@ -1,4 +1,4 @@
 ---
+templateKey: skatepark
 title: Longueuil
 ---
-
