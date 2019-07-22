@@ -1,4 +1,4 @@
 ---
-templateKey: skatepark
+templateKey: skatepark-page
 title: Longueuil
 ---
