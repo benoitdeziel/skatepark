@@ -1,8 +1,7 @@
 ---
-templateKey: skatepark-page
+templateKey: 'skatepark-page'
+path: /skateparks/longueuil
 title: Longueuil
-location:
-  city: Longueuil
-  country: Canada
 ---
 
+Longueuil Skatepark
